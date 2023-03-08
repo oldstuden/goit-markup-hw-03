@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 ul {
   list-style: none;
@@ -33,7 +32,7 @@ body {
   margin-right: auto;
 }
 .header {
-  border-bottom: 2px solid var(--background-light-color);
+  border-bottom: 1px solid var(--background-light-color);
 }
 .header-container {
   display: flex;
@@ -261,8 +260,10 @@ body {
   width: 264px;
 }
 .footer .logo {
+  display: inline-block;
   color: var(--background-light-color);
   margin-bottom: 16px;
+  margin-right: 0px;
 }
 .footer-text {
   font-size: 16px;
